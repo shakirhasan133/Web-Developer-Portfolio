@@ -12,6 +12,11 @@ a{
 .primary-color{
     color:#474747;
 }
+/* Main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* Nav bar style */
 nav{
     display: flex;
@@ -19,16 +24,32 @@ nav{
     align-items: center;
     margin:0px 200px;
 }
+/* Shared CSS */
+
+.primary-bg{
+    background-color: #FFF8F3;
+}
+.primary-box{
+    max-width: 1140px;
+
+}
+.head-text{
+    font-size: 35px;
+    font-weight: 600px;
+    color: #181818;
+}
+/* Share CSS Finished */
+
 /* Primary Button */
 .btn{
     background-color: #FD6E0A;
     border: none;
     color: #ffff;
     padding: 10px;
-    height: 64px;
-    width: 150px;
+    /* height: 64px;
+    width: 150px; */
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400;
     border-radius: 5px;
 }
 .header{
@@ -70,6 +91,9 @@ nav{
 
 .greatings-container{
     max-width: 385px;
+    margin:0;
+    padding:0;
+
 }
 .greatings-container h3{
     font-size: 45px;
@@ -84,5 +108,55 @@ nav{
 .greatings-container p{
     font-size: 18px;
     font-weight: 400;
+
+}
+.about-container{
+    width: 1140px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    
+}
+.about-inner{
+    /* padding: 130px 150px; */
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    height: 288px;
+    width: 827px;
+    margin: 0 auto;
+    margin-top: 100px;
+    vertical-align: middle;
+
+}
+.about-des p{
+    color: #757575;
+    font-size: 18px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.ab-item-des{
+    font-size:20px;
+    font-weight: 700;
+}
+.w-i-d-des p{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+}
+.w-i-d-head{
+    text-align: center;
+}
+.skills-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+.skills-list{
 
 }
