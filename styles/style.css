@@ -5,6 +5,9 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 /* Primary color */
 .primary-color{
     color:#474747;
@@ -19,7 +22,7 @@ nav{
 /* Primary Button */
 .btn{
     background-color: #FD6E0A;
-    border: 1px solid black;
+    border: none;
     color: #ffff;
     padding: 10px;
     height: 64px;
@@ -28,7 +31,11 @@ nav{
     font-weight: bold;
     border-radius: 5px;
 }
-
+.header{
+    background: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
 
 .nav-title{
     font-size: 45px;
@@ -45,5 +52,37 @@ nav{
 .menuarea ul li a{
     text-decoration: none;
     font-size: 20px;
+
+}
+
+.btn-container{
+    display: flex;
+    gap: 20px;
+}
+.btn-container a{
+    color: #fff;
+}
+.hero-area{
+    display: flex;
+    justify-content: space-between;
+    margin:0 35px 0 200px;
+}
+
+.greatings-container{
+    max-width: 385px;
+}
+.greatings-container h3{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.greatings-container h1{
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.greatings-container p{
+    font-size: 18px;
+    font-weight: 400;
 
 }
