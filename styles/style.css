@@ -306,4 +306,41 @@ textarea{
     .header{
         background-image: none;
     }
+    .hero-area{
+        margin: 20px;
+    }
+    .picture-container, .about-inner{
+        width: 100%;
+    }
+    .picture-container img{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        margin: 0;
+    }
+    .logoarea{
+        width: 20%;
+    }
+    .menuarea{
+        width: 80%;
+    }
+    .nav-title{
+        font-size: 20px;
+    }
+    .menuarea ul  li{
+        padding: 5px;
+    }
+    .greatings-container h1, .greatings-container h3{
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .picture-container{
+        width: 100%;
+        background-image: url('/images/header_bg.png');
+        background-position: right bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
