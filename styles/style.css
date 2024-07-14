@@ -35,8 +35,8 @@ nav{
 
 }
 .head-text{
-    font-size: 35px;
-    font-weight: 600px;
+    font-size: 2em;
+    font-weight: 600;
     color: #181818;
 }
 /* Share CSS Finished */
@@ -112,8 +112,8 @@ nav{
 
 }
 .about-container{
-    width: 1140px;
-    height: 500px;
+    max-width:1140px;
+    height: auto;
     border-radius: 10px;
     background-color: #FFF8F3;
     text-align: center;
@@ -125,10 +125,10 @@ nav{
     /* padding: 130px 150px; */
     /* background-color: white; */
     /* border: 1px solid black; */
-    height: 288px;
+    height: auto;
     width: 827px;
     margin: 0 auto;
-    margin-top: 100px;
+    padding: 20px 0;
     vertical-align: middle;
 
 }
@@ -142,7 +142,7 @@ nav{
 }
 .ab-item-des{
     font-size:20px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .w-i-d-des p{
     color: #757575;
@@ -270,4 +270,40 @@ footer{
 }
 textarea{
     height: 120px;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* Responsive for mobile Device */
+@media screen and (max-width:576px){
+    .footer-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .left-footer-content, .left-footer-content p, .resume-child1, .resume-child2{
+        width: 100%;
+    }
+    .resume-child{
+        flex-direction: column;
+    }
+
+    .resume-header{
+        font-size: 28px;
+        margin-top: 40px;
+    }
+    .skills-list{
+        flex-direction: column;
+    }
+    .skills{
+        box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.45);
+    }
+    .about-items, .about-container, .hero-area{
+        flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
 }
